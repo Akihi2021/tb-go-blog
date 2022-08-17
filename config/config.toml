@@ -1,0 +1,18 @@
+[viewer]
+    Title = "TBGO博客"
+    Description = "TB的第一个用go写的博客！！"
+    Logo = "public/resource/images/logo.png"
+    Navigation = ["首页","/", "GO语言","/golang", "归档","/pigeonhole", "关于","/about"]
+    Bilibili = "https://space.bilibili.com/242430908"
+    Zhihu = "https://www.zhihu.com"
+    Avatar = "https://i2.hdslb.com/bfs/archive/3a7cf538b197a0ca1a537f27afca776f5b2f4d01.jpg@640w_400h_1c_!web-space-index-myvideo.webp"
+    UserName = "TB"
+    UserDesc = "博嗝儿"
+[system]
+    CdnURL = "https://www.zhihu.com/"
+    QiniuAccessKey = "替换自己的"
+    QiniuSecretKey = "替换自己的"
+    Valine = true
+    ValineAppid = "替换自己的"
+    ValineAppkey = "替换自己的"
+    ValineServerURL = "替换自己的"
