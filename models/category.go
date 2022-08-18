@@ -8,3 +8,8 @@ type Category struct {
 	CreateAt string //创建时间
 	UpdateAt string //更新时间
 }
+
+type CategoryResponse struct {
+	*HomeResponse
+	CategoryName string
+}
