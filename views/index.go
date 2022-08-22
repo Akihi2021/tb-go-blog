@@ -5,6 +5,7 @@ import (
 	"log"
 	"net/http"
 	"strconv"
+	"strings"
 	"tb-go-blog/common"
 	"tb-go-blog/service"
 )
@@ -53,7 +54,9 @@ func (*HTMLApi) Index(w http.ResponseWriter, r *http.Request) {
 	}
 	//每页显示的数量
 	pageSize := 10
-	hr, err := service.GetAllIndexInfo(page, pageSize)
+	path := r.URL.Path
+	slug := strings.TrimPrefix(path, "/")
+	hr, err := service.GetAllIndexInfo(slug, page, pageSize)
 	if err != nil {
 		log.Println("首页获取数据出错：", err)
 		index.WriteError(w, errors.New("系统错误，请联系管理员！"))
