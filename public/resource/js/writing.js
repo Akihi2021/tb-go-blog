@@ -59,7 +59,8 @@ function uploadImage(file, cb) {
         },
         complete(res){
           console.log(res)
-          cb("https://static.mszlu.com/" + res.key)
+          //????用于拼接名称
+          cb("https://rgustzt7b.hb-bkt.clouddn.com/" + res.key)
         }
       }
       const subscription = observable.subscribe(observer) // 上传开始

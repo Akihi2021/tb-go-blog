@@ -9,10 +9,10 @@
     UserName = "TB"
     UserDesc = "博嗝儿"
 [system]
-    CdnURL = "https://www.zhihu.com/"
-    QiniuAccessKey = "替换自己的"
-    QiniuSecretKey = "替换自己的"
+    CdnURL = "https://static.mszlu.com/goblog/es6/md-assets"
+    QiniuAccessKey = "qEyOWyUFGknNfR9cIdVbVDcrsAZ6S-_0ilJzaK9a"
+    QiniuSecretKey = "3uOq2tAnpCk0E31MXIa0qHb4xIDOAkZJ7Mch79sz"
     Valine = true
     ValineAppid = "wd07yN6pBuCGtvqtHrLrtqW0-gzGzoHsz"
     ValineAppkey = "Ip4aSEjGcd20sjWbuw2hKz2B"
-    ValineServerURL = "替换自己的"
+    ValineServerURL = "https://wd07yn6p.lc-cn-n1-shared.com"
